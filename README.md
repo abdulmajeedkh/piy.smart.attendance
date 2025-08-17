@@ -76,7 +76,7 @@ piy.attendance
  🚀 Getting Started
  1. Clone the repository
 bash
-git clone https://github.com/yourusername/piy.attendance.git
+git clone https://github.com/abdulmajeedkh/piy.attendance.git
 cd piy.attendance
 
  2. Install dependencies
