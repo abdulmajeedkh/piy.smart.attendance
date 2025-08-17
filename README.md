@@ -15,12 +15,17 @@ This project is designed as a portfolioready showcase to present professional de
  
  
  🏗️ Project Structure
+ 
 piy.attendance
-│
+
 ├── piy.attendance.domain         Domain entities & core business rules
+
 ├── piy.attendance.app.contract   DTOs & service contracts (interfaces)
+
 ├── piy.attendance.app            Application layer (services, EF Core DbContext)
+
 ├── piy.attendance.host           Web API layer (controllers, DI, swagger, hosting)
+
 
 
  🔹 Domain (piy.attendance.domain)
