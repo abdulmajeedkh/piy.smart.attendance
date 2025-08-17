@@ -1,0 +1,6 @@
+@piy.attendance.host_HostAddress = http://localhost:5003
+
+GET {{piy.attendance.host_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
