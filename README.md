@@ -1,6 +1,8 @@
  PIY Attendance API
+
 A modular Clean Architecture ASP.NET Core 9 Web API project for managing class attendance in an educational environment. This solution demonstrates enterpriselevel software practices with clear separation of concerns, scalable structure, and industry standards. 
-This project is designed as a portfolioready showcase to present professional development skills in ASP.NET Core, EF Core, Clean Architecture, and API Design. 
+This project is designed as a portfolioready showcase to present professional development skills in ASP.NET Core, EF Core, Clean Architecture, and API Design.
+
  📌 Features
  Student Management – Add and manage students with class assignments.
  Class Management – Create and organize classes.
@@ -11,6 +13,7 @@ This project is designed as a portfolioready showcase to present professional de
  Swagger Integration – API documentation and testing.
  Extensible Design – Ready for integration with Authentication, Logging, Validation, and Reporting.
  
+ 
  🏗️ Project Structure
 piy.attendance
 │
@@ -19,25 +22,31 @@ piy.attendance
 ├── piy.attendance.app            Application layer (services, EF Core DbContext)
 ├── piy.attendance.host           Web API layer (controllers, DI, swagger, hosting)
 
+
  🔹 Domain (piy.attendance.domain)
  Entities: Student, Class, Lecture, Attendance
  Business rules and relationships only (no dependencies).
+ 
 
  🔹 Contracts (piy.attendance.app.contract)
  DTOs for API communication.
  Service interfaces for abstraction.
+ 
 
  🔹 Application (piy.attendance.app)
  Implements business logic.
  Manages EF Core DbContext and migrations.
  Contains services (StudentService, ClassService, LectureService, AttendanceService).
+ 
 
  🔹 Host (piy.attendance.host)
  Entry point Web API project.
  Controllers expose RESTful endpoints.
  Configures Dependency Injection, Swagger, EF Core.
+ 
 
  📚 Database Schema
+ 
 
  Student
  Id (PK)
